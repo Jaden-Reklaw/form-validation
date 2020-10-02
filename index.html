@@ -38,8 +38,9 @@
             <!-- Password -->
             <div class="form-group">
                 <label for="password1">Password</label>
-                <input type="password" id="password1" placeholder="Create Password" 
-                    required pattern="^(?=.*[a-z].*[a-z])(?=.*[A-Z].*[A-Z])(?=.*\d.*\d)(?=.*\W.*\W)[a-zA-Z0-9\S]{9,}$">
+                <input type="password" id="password1" placeholder="Create Password (Min. 9 Characters)" 
+                    required pattern="^(?=.*[a-z].*[a-z])(?=.*[A-Z].*[A-Z])(?=.*\d.*\d)(?=.*\W.*\W)[a-zA-Z0-9\S]{9,}$"
+                    title="You must have 2 uppercase, 2 lowercase, 2 numbers and 2 special charaters">
             </div>
             <!-- Confirm Password -->
             <div class="form-group">
