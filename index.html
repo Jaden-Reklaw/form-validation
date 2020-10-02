@@ -16,38 +16,38 @@
             <!-- Full Name -->
             <div class="form-group">
                 <label for="name">Full Name</label>
-                <input type="text" id="name" placeholder="Full Name" 
+                <input class="input" type="text" id="name" placeholder="Full Name" 
                     required minlength="2" name="name">
             </div>
             <!-- Phone Number -->
             <div class="form-group">
                 <label for="phone">Phone Number</label>
-                <input type="tel" id="phone" placeholder="555-555-5555" 
+                <input class="input" type="tel" id="phone" placeholder="555-555-5555" 
                     required pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" name="phone">
             </div>
             <!-- Email Address -->
             <div class="form-group">
                 <label for="email">Email Address</label>
-                <input type="email" id="email" placeholder="email@addresss.com" 
+                <input class="input" type="email" id="email" placeholder="email@addresss.com" 
                 required name="email">
             </div>
             <!-- Website Url -->
             <div class="form-group">
                 <label for="website">Website URL</label>
-                <input type="url" id="website" placeholder="http://mywebsite.com" 
+                <input class="input" type="url" id="website" placeholder="http://mywebsite.com" 
                 required name="website">
             </div>
             <!-- Password -->
             <div class="form-group">
                 <label for="password1">Password</label>
-                <input type="password" id="password1" placeholder="Create Password (Min. 9 Characters)" 
+                <input class="input" type="password" id="password1" placeholder="Create Password (Min. 9 Characters)" 
                     required pattern="^(?=.*[a-z].*[a-z])(?=.*[A-Z].*[A-Z])(?=.*\d.*\d)(?=.*\W.*\W)[a-zA-Z0-9\S]{9,}$"
                     title="You must have 2 uppercase, 2 lowercase, 2 numbers and 2 special charaters">
             </div>
             <!-- Confirm Password -->
             <div class="form-group">
                 <label for="password2">Confirm Password</label>
-                <input type="password" id="password2" placeholder="Confirm Password" 
+                <input class="input" type="password" id="password2" placeholder="Confirm Password" 
                     required pattern="^(?=.*[a-z].*[a-z])(?=.*[A-Z].*[A-Z])(?=.*\d.*\d)(?=.*\W.*\W)[a-zA-Z0-9\S]{9,}$" name="password">
             </div>
             <button type="submit">Register</button>
